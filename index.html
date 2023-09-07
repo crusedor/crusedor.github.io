@@ -1,12 +1,466 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Tes</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TesLP</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="main.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"> -->
+
 </head>
 <body>
-	<h1>Tes Git</h1>
+
+    <!-- HEADER -->
+    <header class="header">
+        <a href="index.html" class="logo">Logo</a>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="close-icon"></i>
+        </label>
+
+        <nav class="navbarqu">
+            <a href="#home" style="--i:0" class="active">Home</a>
+            <a href="#about" style="--i:1">About</a>
+            <a href="#client" style="--i:2">Clients</a>
+            <a href="#partners" style="--i:3">Partners</a>
+            <a href="#contact" style="--i:4">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HOME -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <div class="home-title">
+                ADHYAKSA & PARTNERS
+            </div>
+            <div class="home-def">
+                Indonesian law firm providing full range of legal services in Indonesia
+            </div>
+            <div class="home-desc">
+                <p>The origin of ADHYAKSA & PARTNERS is called Adhyaksa&Co.</p>
+                <p class="mt-3">ADHYAKSA & PARTNERS commands a wealth of experience and expertise in assisting our clients with unmatched commitment</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title text-center mt-3">About Us</h2>
+
+            <div class="row mt-5">
+                <h3 class="sub-about">WHY US</h3>
+
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="box-why">
+                        <div class="why-img">
+                            <i class="bx bx-medal bx-big one"></i>
+                        </div>
+                        <div class="why-title">
+                            <h4>High Quality Services</h4>
+                        </div>
+                        <div class="why-desc">
+                            One of our many goals is to provide exceptional service to our clients and prompt interaction
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="box-why">
+                        <div class="why-img">
+                            <i class="bx bxs-group bx-big two"></i>
+                        </div>
+                        <div class="why-title">
+                            <h4>Client-focused</h4>
+                        </div>
+                        <div class="why-desc">
+                            Our  firm principles secures  that  clients  receive  comprehensible,  synoptic and practical advice, based on an in-depth knowledge of the legal and commercial views. The clients’ needs will always be coming first
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="box-why">
+                        <div class="why-img">
+                            <i class="bx bx-vertical-bottom bx-big three"></i>
+                        </div>
+                        <div class="why-title">
+                            <h4>Single Window Shop</h4>
+                        </div>
+                        <div class="why-desc">
+                            Our team is dedicated to offering quality services tailored to the diverse needs of every client in a dynamic and ever-changing business environment, all under one roof
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="box-why">
+                        <div class="why-img">
+                            <i class="bx bxs-like bx-big four"></i>
+                        </div>
+                        <div class="why-title">
+                            <h4>Commercially effective</h4>
+                        </div>
+                        <div class="why-desc">
+                            Our “single-window shop” approach allows us to serve our clients in a manner that is efficient, prompt, and commercially effective
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row mt-5">
+                <h3 class="sub-about">WHAT WE DO</h3>
+                <div class="col-sm-12">
+                    <div class="accordion" id="accordionExample">
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Infrastructure & Project Finance
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Our team has broad experiences in infrastructure and project finance practice, advising and solving the complexities involved in transactions, financing and policy between public and private sectors in the infrastructure field.
+                                    </p>
+                                    <p>Possessing extensive transactional experiences and strong relationships with government regulatory bodies, our team is properly equipped to deal with complex energy  and infrastructure transactions, representing government, local and international private investors and operators as well as banks and financial institutions.
+                                    </p>
+                                    <p>Adhyaksa managed to be the very first law firm in Indonesia who succeeded in transacted PPP Project in water supply infrastructure in Indonesia, i.e., Tangerang PPP Water Supply of worth USD 4 billion.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Corporate Commercials & Capital Markets
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Our team is knowledgeable and has broad experience in dealing with joint venture transactions and company establishment for wide range of business sectors. We have assisted clients both local and foreign clients in dealing with their counterparts in corporate commercial transactions, advising clients on corporate restructuring, initial public offerings (IPOs) of equity and non-equity instruments, rights issues, asset securitization, and other issues of securities.
+                                    </p>
+                                    <p>Adhyaksa is experienced in handling commercial and trading transactions such as export and import documents and agreements. This specialty brings confidence to our progressive clients in developing and expanding their businesses.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Commercial Dispute & Arbitration
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Two periods as the Chairman of the national high-level Judicial Commissions make Mr. Jaja Ahmad Jayus as one of the most prominent individual in Indonesia legal community. Mr. Jayus leads the commercial dispute & arbitration within Adhyaksa which makes dispute practice of Adhyaksa as one of the strongest in Indonesia.
+                                    </p>
+                                    <p>Adhyaksa understands that in the face of regulatory challenge, dispute resolution is currently becoming a  major  concern  to  foreign  investors  and  business  participants,  thus  our  Dispute  Practice Group focuses on developing areas that are required to protect and maximize our clients’ investment and business.
+                                    </p>
+                                    <p>With  this  in  mind,  our  practice  group’s  areas  of  focus  cover  the     Bankruptcy,  Insolvency  and Restructuring ("BIR"),  Civil  Litigation  and Commercial  Litigation, Employment and Labor Dispute, Arbitration and Alternative Dispute Resolution ("ADR").
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Corporate Governance
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Adhyaksa has represented leading national and multi-national companies in their Corporate Governance related matters. Our clients work in a variety of sectors, including manufacturing, banking and finance, consumer products, construction, mining, and other sectors.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Start-up & Technology
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Adhyaksa understands that in the face of regulatory challenge, legal compliance and dispute resolution is currently becoming a  major  concern  to  foreign  start-up & technology companies,  thus  our  Start-up & Technology Group focuses on developing areas that are required to protect and maximize our clients' investment and business.
+                                    </p>
+                                    <p>Adhyaksa has assisted start-up companies on advising legal matters and issues, such as Gravel Technology, Rocket Internet group in Indonesia, inter alia: Lazada, Zalora, HappyFresh, Lamudi, Food Panda, EasyTaxi, peer-to-peer lending (P2P lending), inter alia: KoinWorks, Maucash, Pintek, Modalku.
+                                    </p>
+                                    <p>In this start-up  & technology group, Adhyaksa also assists clients in general corporate, including but not limited to business licensing and manpower compliance, drafting and reviewing corporate documents and agreements, corporate commercial transactions, and advising clients on corporate restructuring.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- CLIENT -->
+    <section id="client" class="client">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Our Clients</h2>
+                
+                <div class="col-sm-6 col-md-4">
+                    <div class="client-image">
+                        <img src="clients/lamudi.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="client-image">
+                        <img src="clients/food_panda.png" alt="">
+                    </div>
+                </div>
+                
+                <div class="col-sm-6 col-md-4">
+                    <div class="client-image">
+                        <img src="clients/lazada.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="client-image">
+                        <img src="clients/easy_taxi.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="client-image">
+                        <img src="clients/zalora.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="client-image">
+                        <img src="clients/zalora.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="client-image">
+                        <img src="clients/zalora.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="client-image">
+                        <img src="clients/zalora.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- DIVIDER -->
+    <section class="divider">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="divider-content">
+                        <h3>Join Our Family</h3>
+                        <h3>and create your career path</h3>
+                        <div class="mt-5">
+                            <a href="mailto:contact@adhyaksa.id" class="btn-divider slide_right">Email us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PARTNER -->
+    <section id="partners" class="partners">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="section-title text-center mb-5">Our Partners</h2>
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators mt-5 pt-5">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="data-flex-partners">
+                                    <div class="partners-image">
+                                        <div class="img-box">
+                                            <img src="partners/Isidorus.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="partners-content">
+                                        <h3>Isidorus Dharma Herdipta Adji</h3>
+                                        <p class="begin">Dharma graduated from the Faculty of Law of Parahyangan Catholic University. He is now our team leader of Dispute Resolution and Start Up & Technology Practice Group. He has extensive experience in representing foreign and domestic companies in commercial litigation, arbitration, bankruptcy as well as industrial relation. He also has experiences in accompanying multiple foreign and domestic companies in several criminal investigations process in the Indonesian National Police.
+                                        </p>
+                                        <p class="special">Specialization: Civil and Commercial Litigation, Arbitration and Alternative Dispute Resolution, Bankruptcy, Insolvency and Restructuring, Corporate and Commercial, and Employment and Manpower Dispute</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="data-flex-partners">
+                                    <div class="partners-image">
+                                        <div class="img-box">
+                                            <img src="partners/Jeselyn.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="partners-content">
+                                        <h3>Jeselyn Ong</h3>
+                                        <p class="begin">Jeselyn Ong is an Indonesian qualified lawyer, graduated cum laude at Faculty of Law of University of Indonesia and a Master of Notary Law degree from the same university. She is among small number of lawyers in Indonesia who has experience as a regulatory and project finance lawyer. In addition, She also has extensive experience in corporate and commercial related matters. She has worked with various types of clients, including foreign companies, private companies and state-owned enterprises.
+                                        </p>
+                                        <p class="special">Specialization: infrastructure; project financing</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="data-flex-partners">
+                                    <div class="partners-image">
+                                        <div class="img-box">
+                                            <img src="partners/Mario.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="partners-content">
+                                        <h3>Mario Sinjal</h3>
+                                        <p class="begin">Mario Sinjal is a Senior Counsel in Adhyaksa. Mario has more than two decades of law experiences with strong capabilities in multiple areas particularly in acquisitions, company establishment, restructuring, litigation and general law and in the sectors of banking and finance, capital market, labor and immigration, oil and gas.
+                                            Mario graduated from the faculty of law from the University of Indonesia. In 2017 & 2018 he was a spokesperson on ICCA Seminar on Industrial Relation. Mario is a member of the Indonesian Advocates Organization (Perhimpunan Advokat Indonesia - PERADI), a member of the Indonesian Society of Human Resource Management and Indonesian Chambers of Commerce.
+                                        </p>
+                                        <p class="special">His forte is to analyze a problem and provide effective solutions, which is essential to the firm.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="data-flex-partners">
+                                    <div class="partners-image">
+                                        <div class="img-box">
+                                            <img src="partners/Nasatya.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="partners-content">
+                                        <h3>Nasatya Danisworo Nimpuno</h3>
+                                        <p class="begin">Nasatya graduated from Law Faculty of Universitas Gadjah Mada majoring in Criminal Law. Prior to becoming a licensed advocate, he worked as a legal expert staff for several complex projects executed by Universitas Gadjah Mada and Local Government of Special Region of Yogyakarta where he gained exposures on agrarian law and related public law.
+                                        </p>
+                                        <p class="special">Afterwards, he handled various dispute resolution in both civil and criminal proceedings. Beside handling legal cases in commercial basis, he also devoted his time to handle criminal cases in pro bono basis at Legal Consultation and Aid Centre of Universitas Tarumanagara.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="data-flex-partners">
+                                    <div class="partners-image">
+                                        <div class="img-box">
+                                            <img src="partners/Patricia.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="partners-content">
+                                        <h3>Patricia Natasha Natio</h3>
+                                        <p class="begin">Patricia Natasha Natio graduated cum laude from the Faculty of Law at the University of Indonesia, specializing in Environmental Law. She possesses a distinct passion for exploring Indonesia's carbon trading potential and its corresponding legal intricacies. Committed to upholding a standard of legal excellence, she demonstrates a steadfast dedication to continuously improve her legal services. Proficient in English, she adeptly handles legal drafting, analysis, and research.</p>
+                                        <p class="special">Specializations: Environmental Law, Infrastructure, Legal Drafting, Legal Research</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="data-flex-partners">
+                                    <div class="partners-image">
+                                        <div class="img-box">
+                                            <img src="partners/Aqilla.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="partners-content">
+                                        <h3>Aqilla Fadia Haya</h3>
+                                        <p class="begin">Aqilla Fadia Haya graduated cum laude from the Faculty of Law at the Padjadjaran University. A dedicated and motivated graduate with specialization in Private Law, Aqilla seeks to leverage her academic background and has strong passion for legal research in a dynamic legal environment. She also handles on corporate matters.</p>
+                                        <p class="special">Specializations: Infrastructure, Legal Drafting, Legal Research</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <h2 class="my-3">Office</h2>
+                    <div class="contacts">
+                        Address: <span>Jl. Sisingamangaraja No.28, RT.1/RW.1, Selong, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12110</span>
+                    </div>
+                    <div class="contact-detil mt-3">
+                        <div><i class='bx bxs-phone-call bx-sm'></i></div>
+                        <div><a href="tel:+622127936072"> 021-27936072</a></div>
+                    </div>
+                    <div class="contact-detil">
+                        <div><i class='bx bxl-whatsapp bx-sm text-success'></i></div>
+                        <div><a href="https://wa.me/628888033336" target="_blank"> 0888-8033-336</a></div>
+                    </div>
+                    <div class="contact-detil">
+                        <div><i class='bx bx-envelope bx-sm text-danger'></i></div>
+                        <div><a href="mailto:contact@adhyaksa.id">contact@adhyaksa.id</a></div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-8">
+                    <div class="contact-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.257483637774!2d106.79691167499047!3d-6.229746493758407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f146728a9b99%3A0xcf7ce2a5ac8cdcb5!2sJl.%20Sisingamangaraja%20No.28%2C%20RT.1%2FRW.1%2C%20Selong%2C%20Kec.%20Kby.%20Baru%2C%20Kota%20Jakarta%20Selatan%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2012110!5e0!3m2!1sen!2sid!4v1693723507331!5m2!1sen!2sid" width="100%" height="210px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-content">Copyright@ Adhyaksa & Partner 2023</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
