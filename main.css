@@ -36,6 +36,10 @@ body{
   background-position: center; */
 }
 
+.mobile-view{
+  display: none;
+}
+
 h2.section-title{
   font-family: var(--third-font);
   font-size: 3.5rem;
@@ -137,11 +141,7 @@ a.logo:hover{
 }
 
 .home-content{
-  height: calc(100vh - 50px);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  margin-top: 200px;
   text-align: center;
 }
 
@@ -161,7 +161,7 @@ a.logo:hover{
 }
 
 .home-desc{
-  margin-top: 3rem;
+  margin: 3rem auto 0;
   font-size: 1.5rem;
   font-weight: 500;
   width: 50vw;
@@ -282,9 +282,9 @@ i.bx-big {
 /* ################ SECTION DIVIDER ################ */
 .divider{
   margin: 3rem 0 0;
-  color: #5fe7e0;
+  color: var(--text-color);
 
-  height: 16rem;
+  height: 20rem;
   width: 100%;
   background-image: url(sunset.jpg);
   background-size: cover;
@@ -294,7 +294,7 @@ i.bx-big {
 
 .divider-content{
   text-align: center;
-  padding: 2.8rem 2rem 0;
+  padding: 4rem 2rem 0;
 }
 
 .divider-content h3{
@@ -321,13 +321,13 @@ i.bx-big {
 }
 
 .slide_right:hover {
-  color: #f9faff;
+  color: var(--text-color);
   box-shadow: inset 400px 0 0 0 var(--main-color);
 }
 
 /* ################ SECTION PARTNERS ################ */
 .partners{
-  background: rgb(26, 255, 224);
+  background: rgb(226 251 248);
   padding: var(--padding-section);
   height: 600px;
 }
@@ -443,8 +443,9 @@ footer{
 }
 
 
+/* ########### TABLET ########### */
 @media (max-width: 768px){
-  /* === m-NAVBAR === */
+  /* === TAB-NAVBAR === */
   .icons{
       display: inline-flex;
   }
@@ -500,15 +501,37 @@ footer{
   .home{
     height: 80vh;
   }
+
+  .home-content{
+    margin-top: 150px;
+  }
+
   .home-title{
     font-size: 3rem;
     line-height: 1.2;
   }
 
+  .home-def{
+    width: 100%;
+    margin-top: 1.2rem;
+    font-size: 2rem;
+    line-height: 1;
+  }
 
+  .home-desc {
+    margin: 1.3rem auto 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1;
+    width: 100%;
+    padding: 0.5rem;
+    border: 5px outset #50d4ff;
+  }
 
   /* === m-ABOUT === */
-  
+  .box-why{
+    margin-top: 2rem;
+  }
 
 
 
@@ -528,7 +551,7 @@ footer{
     height: 1050px;
   }
   .carousel-indicators{
-    top: 800px;
+    top: 650px;
   }
 
   .data-flex-partners{
@@ -545,6 +568,7 @@ footer{
   .partners-content h3{
     text-align: center;
     font-size: 1.6rem;
+    font-weight: 600;
   }
   .partners-content p.begin{
     margin-top: 0px;
@@ -556,6 +580,62 @@ footer{
     margin-bottom: 3rem;
   }
 
+
+
+  /* ########### HP ########### */
+  @media (max-width: 480px){
+    .desktop-view{
+      display: none;
+    }
+    .mobile-view{
+      display: block;
+    }
+
+
+
+
+    .home-content{
+      margin-top: 200px;
+    }
+
+    .home-def{
+      font-size: 1.6rem;
+    }
+
+    .home-desc {
+      margin: 4rem auto 0;
+      font-size: 1rem;
+      line-height: 1;
+      border: 5px outset #50d4ff;
+    }
+
+
+    /* HP-PARTNERS */
+    .partners{
+      height: 1200px;;
+    }
+    .partners-content h3{
+      font-size: 1.3rem;
+    }
+
+
+    /* HP-CONTACT */
+    .contact{
+      background-color: #191369;
+      color: var(--text-color);
+    }
+
+    .contact h2{
+      font-weight: 700;
+    }
+
+    .contact-detil a{
+      color: var(--text-color);
+    }
+
+  }
+
+  
 
 
 }
