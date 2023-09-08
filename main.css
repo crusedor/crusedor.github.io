@@ -436,6 +436,13 @@ footer{
 
 
 /* ################ BREAKPOINT ################ */
+@media (max-width: 1440px){
+  .home-def{
+      font-size: 2rem;
+      width: 100vw;
+  }
+}
+
 @media (max-width: 992px){
   .header{
       padding: 1.3rem 5%;
