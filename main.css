@@ -439,7 +439,7 @@ footer{
 @media (max-width: 1440px){
   .home-def{
       font-size: 2rem;
-      width: 100vw;
+      width: 100%;
   }
 }
 
