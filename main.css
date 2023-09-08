@@ -436,7 +436,7 @@ footer{
 
 
 /* ################ BREAKPOINT ################ */
-@media (max-width: 1440px){
+@media (max-width: 1366px){
   .home-def{
       font-size: 2rem;
       width: 100%;
