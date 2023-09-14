@@ -156,22 +156,19 @@ a.logo:hover{
   font-size: 2.5rem;
   font-weight: 700;
   color: var(--text-color);
-  width: 80vw;
+  margin: 0 auto;
   font-family: var(--fourth-font);
 }
 
 .home-desc{
-  margin: 3rem auto 0;
+  margin: 5rem auto 0;
   font-size: 1.5rem;
   font-weight: 500;
-  width: 50vw;
-  padding: 1.5rem;
   border: 12px outset #50d4ff;
 }
 
 .home-desc p{
   line-height: 1.4;
-  margin-bottom: 0;
   color: #e8e9db;
 }
 
@@ -438,19 +435,15 @@ footer{
 /* ################ BREAKPOINT ################ */
 @media (max-width: 1366px){
   .home-content{
-    margin-top: 150px;
-  }
-  .home-def{
-    font-size: 2rem;
-    width: 100%;
-  }
-  .home-desc{
-    margin: 1rem auto 0;
-    padding: 1rem;
+    margin-top: 130px;
   }
   .box-why{
-    height: 24rem;
+    height: 380px;
   }
+  .why-title h4{
+    font-size: 1.3rem;
+  }
+
 }
 
 @media (max-width: 992px){
