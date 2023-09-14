@@ -619,6 +619,10 @@ footer{
       border: 5px outset #50d4ff;
     }
 
+    .home-desc p {
+      line-height: 1;
+    }
+
 
     /* HP-PARTNERS */
     .partners{
